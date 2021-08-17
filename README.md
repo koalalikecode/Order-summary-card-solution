@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/koalalikecode/Order-summary-card-solution)
-- Live Site URL: [](https://koalalikecode.github.io/Order-summary-card-solution/)
+- Solution URL: [https://github.com/koalalikecode/Order-summary-card-solution]
+- Live Site URL: [https://koalalikecode.github.io/Order-summary-card-solution/]
 
 ## My process
 
