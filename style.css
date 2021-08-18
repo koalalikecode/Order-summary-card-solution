@@ -85,7 +85,7 @@ p {
   flex-grow: 1;
 }
 
-.user-choice .price h2{
+.user-choice .price h2 {
   font-size: 16px;
   font-weight: 700;
 }
@@ -100,35 +100,35 @@ p {
   text-decoration: none;
 }
 
-.user-confirm{
-  padding:32px 48px;
+.user-confirm {
+  padding: 32px 48px;
   line-height: 1.5;
   text-align: center;
   font-weight: 700;
 }
 
-.user-confirm .agree-button{
+.user-confirm .agree-button {
   display: block;
   padding: 12px 0;
   background-color: var(--Bright-blue);
-  color:var(--White);
+  color: var(--White);
   border-radius: 10px;
   box-shadow: 0 16px 12px 5px var(--Pale-blue);
   text-decoration: none;
 }
 
-.user-confirm .agree-button:hover{
+.user-confirm .agree-button:hover {
   opacity: 0.7;
 }
-.user-confirm .reject-button{
+.user-confirm .reject-button {
   display: inline-block;
-  color:var(--Desaturated-blue);
+  color: var(--Desaturated-blue);
   margin: 32px 0 16px 0;
   text-decoration: none;
 }
 
-.user-confirm .reject-button:hover{
-  color:var(--Dark-blue);
+.user-confirm .reject-button:hover {
+  color: var(--Dark-blue);
 }
 .attribution {
   font-size: 11px;
@@ -142,19 +142,19 @@ p {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width:500px){
-  .container{
+@media (max-width: 500px) {
+  .container {
     width: 340px;
   }
-  .user-choice{
-    margin: 0 24px 0 24px
+  .user-choice {
+    margin: 0 24px 0 24px;
   }
 
-  .user-confirm{
+  .user-confirm {
     padding: 24px 24px;
   }
 
-  .user-confirm .reject-button{
+  .user-confirm .reject-button {
     margin: 24px 0 0 0;
   }
 }
