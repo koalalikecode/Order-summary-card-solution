@@ -35,6 +35,7 @@ body {
   transform: translate(-50%, -50%);
   background-color: var(--White);
   border-radius: 15px;
+  box-shadow: 0px 10px 40px var(--Desaturated-blue);
 }
 
 .container .banner {
@@ -48,11 +49,12 @@ body {
   text-align: center;
   line-height: 1.5;
 }
-h2,
-h4 {
+h1,
+h2 {
   color: var(--Dark-blue);
 }
-.content h2 {
+.content h1 {
+  font-size: 24px;
   font-weight: 900;
   padding-bottom: 16px;
 }
@@ -83,6 +85,11 @@ p {
   flex-grow: 1;
 }
 
+.user-choice .price h2{
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .user-choice .change a {
   color: var(--Bright-blue);
   font-weight: 700;
@@ -101,11 +108,13 @@ p {
 }
 
 .user-confirm .agree-button{
+  display: block;
   padding: 12px 0;
   background-color: var(--Bright-blue);
   color:var(--White);
   border-radius: 10px;
   box-shadow: 0 16px 12px 5px var(--Pale-blue);
+  text-decoration: none;
 }
 
 .user-confirm .agree-button:hover{
@@ -113,7 +122,9 @@ p {
 }
 .user-confirm .reject-button{
   display: inline-block;
+  color:var(--Desaturated-blue);
   margin: 32px 0 16px 0;
+  text-decoration: none;
 }
 
 .user-confirm .reject-button:hover{
